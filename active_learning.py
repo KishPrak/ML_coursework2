@@ -101,8 +101,8 @@ def evaluate_linear(train_embeddings,train_labels,test_embeddings,test_labels,qu
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
 
-    #EMB_DIR = "./embeddings_external"
-    EMB_DIR = "./refined_embeddings"
+    EMB_DIR = "./embeddings_external"
+    #EMB_DIR = "./refined_embeddings"
 
     #get embeddings
     train_emb = np.load(f"{EMB_DIR}/train_embeddings.npy")
